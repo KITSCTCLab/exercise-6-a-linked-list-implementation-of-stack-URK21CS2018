@@ -20,7 +20,7 @@ class Stack:
     if t is not None:
       p = t.data
       t= t.next
-      return p
+      return True
     
       
 
