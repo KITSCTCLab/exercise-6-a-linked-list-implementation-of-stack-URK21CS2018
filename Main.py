@@ -18,7 +18,7 @@ class Stack:
     # Write your code here
     t = self.head
     if t is not None:
-      return True
+      return t.data
     t=t.next
     
       
