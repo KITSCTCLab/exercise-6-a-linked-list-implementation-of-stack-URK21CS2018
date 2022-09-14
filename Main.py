@@ -18,7 +18,7 @@ class Stack:
     # Write your code here
     t = self.head
     if t is not None:
-      print(t.data)
+      print("-")
       
 
   def status(self):
