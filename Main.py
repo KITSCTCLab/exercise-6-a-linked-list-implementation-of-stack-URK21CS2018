@@ -1,5 +1,5 @@
 class Node:
-  def __init__(self, data,None):
+  def __init__(self, data):
     self.data = data
     self.next = None
 
@@ -10,7 +10,8 @@ class Stack:
 
   def push(self, data) -> None:
     # Write your code here
-    node = Node(data,self.head)
+    node = Node(data)
+    self.next = self.head
     self.head = node
 
   def pop(self) -> None:
