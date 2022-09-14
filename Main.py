@@ -17,9 +17,7 @@ class Stack:
   def pop(self) -> None:
     # Write your code here
     t = self.head
-    if t is None:
-      print("-")
-    else:
+    if t is not None:
       print(t.data)
       
 
@@ -29,9 +27,7 @@ class Stack:
     """
     # Write your code here  
     t = self.head
-    if t is None:
-      print("-")
-    else:
+    if t is not None:
       while t.next:
         t = t.next
         print(t.data)
