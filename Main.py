@@ -18,7 +18,7 @@ class Stack:
     # Write your code here
     t = self.head
     if t is not None:
-      t.data.pop()
+      return True
       
 
   def status(self):
