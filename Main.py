@@ -16,10 +16,11 @@ class Stack:
 
   def pop(self) -> None:
     # Write your code here
-   
-    popped = self.head.data
-    self.head = self.head.next
-    return popped
+    t = self.head
+    if t is not None:
+      p = t.data
+      t= t.next
+      return p
     
       
 
