@@ -33,7 +33,7 @@ class Stack:
     if t is not None:
       while t.next:
         t = t.next
-        print(t.data)
+        return t.data
 
 
 # Do not change the following code
